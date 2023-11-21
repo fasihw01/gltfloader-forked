@@ -10,7 +10,7 @@ export default function Viewer() {
     <>
       {" "}
       <Customizer />
-      <Canvas shadows dpr={[1, 2]} camera={{ fov: 90, position: [0, 0, 5] }}>
+      <Canvas shadows dpr={[1, 2]} camera={{ fov: 60, position: [0, 0, 5] }}>
         <Suspense fallback={null}>
           <Stage
             controls={ref}
